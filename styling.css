@@ -1,0 +1,432 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* --------------- Naviagtion menu------------------ */
+.navbar-nav{
+    margin-left: auto;
+    z-index: 1;
+}
+.navbar{
+    background-color: #fff;
+    padding: 0px;
+}
+.logo{
+    height: 8rem;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.logo:hover{
+    box-shadow: 5px 5px 10px #e79939,-5px -5px 10px #e79939,-5px 5px 10px #e79939,5px -5px 10px #e79939;
+
+}
+.nav-link{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    margin-right: 2rem;
+    transition: 0.5s;
+}
+.nav-link:hover{
+    font-weight: 900;
+    transform: translateY(-10px);
+    text-shadow: 0px 0px 10px  #e68e22c9;
+}
+@media screen and (max-width: 1000px){
+    .nav-link:hover{
+        transform: translateX(-20px);
+    }
+}
+.navbar-toggler{
+    border: none !important;
+    font-size: 3rem;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: right;
+}
+.form-control{
+    border-radius: 30px;
+}
+.btn{
+    border-radius: 100%;
+}
+.btn:hover{
+    box-shadow: 5px 5px 10px #e79939,-5px -5px 10px #e79939,-5px 5px 10px #e79939,5px -5px 10px #e79939;;
+}
+.form-control:hover{
+    box-shadow: 3px 3px 10px #e79939,-3px -3px 10px #e79939,-3px 3px 10px #e79939,3px -3px 10px #e79939;;
+}
+
+/*{
+    display: block;
+    margin-right: 10px;
+    position: absolute;
+    font-size: 1.5rem;
+    bottom: 45px;
+    justify-content: end;
+} */
+
+/* --------------------Bannner-------------------------- */
+#banner{
+    background-image: url("Image\ 1st\ div.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-height: 1000px;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+@media screen and (min-width: 1594px){
+    #banner{
+        background-size: contain;
+        background-color: #eab474;
+    }
+    .heightimg{
+        height: 200%;
+    }
+}
+.heightimg{
+    width: 100%;
+    height: 120px;
+}
+
+.bannerheading1{
+    color: #c99657;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0px;
+}
+.bannerheading2{
+    color: #e68e22;
+    font-family: 'Amatic SC', cursive;
+    font-size: 7rem;
+    margin: 0px;
+}
+.bannerheading3{
+    color: black;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0px;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.bannerbtn{
+    width: 10rem;
+    background-color: #e9b472;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+}
+.bannerbtn:hover{
+    transform: translateY(10px);
+}
+.bannerpara{
+    color: black;
+    width: 18rem;
+    text-align: justify;
+    margin: 0px auto;
+    margin-bottom: 15px;
+}
+@media screen and (max-width:991px)
+{
+    .bannerpara{
+        background-color: #fff;
+        z-index: -1;
+        opacity: 0.8;
+        border-radius: 20px;
+        margin-bottom: 10px;
+        transition: 0.5s;
+        transition-timing-function: ease-in-out;
+        padding: 2rem;
+    }
+    .bannerpara:hover{
+        box-shadow: 5px 5px 10px #e79939,-5px -5px 10px #e79939,-5px 5px 10px #e79939,5px -5px 10px #e79939;;
+    }
+
+}
+.col-lg-12{
+    padding-left: 50px;
+}
+
+/* ----------------- let's go----------------------- */
+
+.letsgohead{
+    color: #c99657;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 6rem;
+}
+.letsgohead2{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 2rem;
+}
+.letsgoimgbg{
+    height: 600px;
+    width: 350px;
+    background-color: #81776e;
+    margin: 20px 0px;
+    color: #fff;
+}
+.letsgoimgbg h3{
+    margin-top: 50px;
+}
+.letsgoimg{
+    margin-top: 5rem;
+    height: 20rem;
+    transition: 0.5s;
+}
+.letsgoimg:hover{
+    transform: translateY(-20px);
+    box-shadow:  5px 5px 10px #e79939,-5px -5px 10px #e79939,-5px 5px 10px #e79939,5px -5px 10px #e79939;
+}
+#lets-go{
+    background-image: url('Shadow\ 5th\ div\ right\ .png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.letsgobtn{
+    width: 12rem;
+    height: 3rem;
+    background-color: #e9b472;
+    color: #fff;
+    border-radius: 30px;
+    transition: 0.5s;
+    display: block;
+    margin: 0px auto;
+    padding-top: 10px;
+}
+.letsgobtn:hover{
+    transform: translateY(10px);
+}
+
+/*------------------Menu section----------------------- */
+.menuimg{
+    width: 100%;
+}
+.box{
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.para1{
+    padding: 2rem;
+    padding-left: 2rem;
+    color: #fff;
+    background-color: #81776e;
+}
+.para1 p{
+    margin-top: 4rem;
+}
+.para2{
+    padding: 2rem;
+    color: #fff;
+    background-color: #deb37e;
+}
+.para2 h2{
+    text-align: end;
+}
+.para2 p{
+    text-align: end;
+    margin-top: 4rem;
+}
+@media screen and (max-width:991px){
+
+    .para2 h2{
+        text-align: end;
+    }
+    .para2 p{
+        text-align: justify;
+        margin-top: 4rem;
+    }
+    .para1 p{
+        text-align: justify;
+    }
+    .half-box{
+        flex-direction: column-reverse;
+    }
+}
+
+/* Hiking in the mountains */
+.hikingshapeimg{
+    width: 100%;
+    height: 220px;
+}
+#Quote{
+    background-color: #99928d;
+    padding: 0px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px){
+
+    .hikingshapeimg{
+        height: 120px;
+    }
+}
+.quotehead{
+    font-family: 'Amatic SC', cursive;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 4rem;
+}
+.quotes{
+    font-size: 5rem;
+}
+.quotesend{
+    text-align: end;
+    font-size: 5rem;
+}
+.quotepara{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+/* Explore the world  */
+#ETW{
+    background-image: url('luke-helgeson-M2DkvRbumM0-unsplash.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    top: -15rem;
+}
+.etwshape{
+    width: 100%;
+    height: 320px;
+    position: relative;
+    top: -100px;
+    border: none;
+}
+.etwshape2{
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
+.ETWbox{
+    text-align: end;
+    padding-top: 5rem;
+    padding-right: 15rem;
+}
+.etwstyling{
+    color: #ff7b00;
+    font-size: 5rem;
+    font-style: italic;
+}
+.etwstyling2{
+    color: #fff;
+    font-size: 5rem;
+    font-style: italic;
+    margin-bottom: 10rem;
+}
+@media screen and (min-width: 1594px){
+    #ETW{
+        background-color: #f1cb9c;
+    }
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    #ETW{
+        background-position: right;
+    }
+    .etwshape{
+        height: 220px;
+    }
+    .etwshape2{
+        height: 120px;
+    }
+    .ETWbox{
+        text-align: left;
+        padding-top: 0rem;
+        padding-right: 2.5rem;
+    }
+    .etwstyling{
+        font-size: 3rem;
+    }
+    .etwstyling2{
+        font-size: 4rem;
+    }
+}
+
+/* stories */
+.storyhead{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5rem;
+    color: #e79939;
+    font-weight: bolder;
+}
+.storypara{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+#story{
+    background: url('Shadow\ div\ 4.png');
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100;
+    padding: 0px;
+}
+.storyhead2{
+    font-size: 10rem;
+    font-style: italic;
+}
+.storypara2{
+    font-size: 2rem;
+    font-style: italic;
+}
+.storyfoot{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.storyimg{
+    width: 100%;
+}
+
+
+/*--------------- Subscribe -------------------- */
+#subscribe{
+    background-color: #e68e22;
+}
+.subhead{
+    color: #fff;
+}
+.subpara{
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5rem;
+}
+
+/*---------------- last---------------------- */
+#last{
+    background-color: #81776e;
+}
+.lastshape{
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -90px;
+}
+@media screen and (min-width: 300px) and (max-width: 500px) {
+    .lastshape{
+        height: 200px;
+    }
+}
+.lasthead{
+    font-family: 'Amatic SC', cursive;
+    color: #e68e22;
+    font-size: 2.5rem;
+}
+.address{
+    font-family:'Open Sans Condensed', sans-serif ;
+    color: #fff;
+}
+.socialhover{
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+.socialhover:hover{
+    box-shadow: 2px 2px 5px #c99657;
+}
+.foot{
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem
+}
